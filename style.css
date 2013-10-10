@@ -1,3 +1,8 @@
+.cover{*zoom:1;}
+.cover:before,.cover:after{content:" ";display:table}
+.cover:after{clear:both}
+.clear{clear:both;display:block;width:0 !important;height:0 !important;min-height:0 !important;min-width:0 !important;margin:0 !important;padding:0 !important;overflow:hidden}
+
 div{
 	outline: 1px solid #ccc;
 }
@@ -6,4 +11,40 @@ div.container{
 	width: 980px;
 	margin: 0 auto;
 	min-height: 500px;
+}
+
+header{
+	
+}
+
+header h1{
+	font-size: 25px;
+	line-height: 40px;
+}
+
+div.bmc{
+	
+}
+
+footer{
+	
+}
+
+div.bmc div.title{
+	border: 1px solid #111;
+	height: 40px;
+}
+
+div.bmc div.box{
+	width: 190px;
+	float: left;
+	min-height: 300px;
+	border: 1px solid #111;
+}
+
+div.bmc div.bbox{
+	width: 480px;
+	float: left;
+	min-height: 150px;
+	border: 1px solid #111;
 }
