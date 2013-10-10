@@ -1,0 +1,9 @@
+div{
+	outline: 1px solid #ccc;
+}
+
+div.container{
+	width: 980px;
+	margin: 0 auto;
+	min-height: 500px;
+}
