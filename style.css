@@ -3,9 +3,9 @@
 .cover:after{clear:both}
 .clear{clear:both;display:block;width:0 !important;height:0 !important;min-height:0 !important;min-width:0 !important;margin:0 !important;padding:0 !important;overflow:hidden}
 
-div{
+/*div{
 	outline: 1px solid #ccc;
-}
+}*/
 
 div.container{
 	width: 980px;
@@ -35,16 +35,37 @@ div.bmc div.title{
 	height: 40px;
 }
 
-div.bmc div.box{
+div.bmc .box{
 	width: 190px;
 	float: left;
-	min-height: 300px;
+	height: 400px;
 	border: 1px solid #111;
 }
 
-div.bmc div.bbox{
-	width: 480px;
+div.bmc .box.lastbox{
+	width: 210px;
+	float: none;
+	margin-left: auto;
+}
+
+div.bmc .bbox{
+	width: 485px;
 	float: left;
 	min-height: 150px;
 	border: 1px solid #111;
+}
+
+div.bmc .bbox.lastbbox{
+	width: 491px;
+	float: none;
+	margin-left: auto;
+}
+
+div.bmc .mbox{
+	height: 200px;
+	border-top: 1px solid #111;
+}
+
+div.bmc .mbox:first-child{
+	border-top-style: none;
 }
