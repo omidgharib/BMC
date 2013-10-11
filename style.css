@@ -69,3 +69,8 @@ div.bmc .mbox{
 div.bmc .mbox:first-child{
 	border-top-style: none;
 }
+
+
+div.bmc .box textarea{
+	width: 185px;
+}
