@@ -31,8 +31,15 @@ footer{
 }
 
 div.bmc div.title{
-	border: 1px solid #111;
-	height: 40px;
+	line-height: 30px;
+	font-size: 18px;
+}
+
+div.bmc h2,
+div.bmc h3{
+	font-size: 16px;
+	line-height: 20px;
+	padding-left: 5%;
 }
 
 div.bmc .box{
@@ -73,4 +80,17 @@ div.bmc .mbox:first-child{
 
 div.bmc .box textarea{
 	width: 185px;
+	height: 370px;
+}
+
+div.bmc .mbox textarea{
+	height: 175px;
+}
+
+div.bmc .box.lastbox textarea{
+	width: 205px;
+}
+
+div.bmc .bbox textarea{
+	width: 480px;
 }
